@@ -1,0 +1,93 @@
+Trying libcrypto /snap/core/13425/lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+Segmentation fault
+Trying libcrypto /usr/share/sogouimebs/libs/libcrypto.so.10
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+Trying libcrypto /usr/lib/x86_64-linux-gnu/libcrypto.so
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+/usr/bin/ld: /tmp/ccLLVjww.o: in function `main':
+conftest.c:(.text+0xa): undefined reference to `SSLeay'
+collect2: 错误：ld 返回 1
+Trying libcrypto /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+/usr/bin/ld: /tmp/ccBmmHxB.o: in function `main':
+conftest.c:(.text+0xa): undefined reference to `SSLeay'
+collect2: 错误：ld 返回 1
+Trying libcrypto /opt/microsoft/powershell/7/libcrypto.so.1.0.0
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+/usr/bin/ld: /tmp/cc8LHKuG.o: in function `main':
+conftest.c:(.text+0xa): undefined reference to `SSLeay'
+collect2: 错误：ld 返回 1
+Trying libcrypto /opt/netease/netease-cloud-music/libs/libcrypto.so.1.1
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+/usr/bin/ld: /tmp/cchlV4uL.o: in function `main':
+conftest.c:(.text+0xa): undefined reference to `SSLeay'
+collect2: 错误：ld 返回 1
+Trying libcrypto /var/lib/docker/overlay2/9d934b61f1ce16008d86e3bb483b57274c543537010c6f26ce59a22d7ecf3a70/diff/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+/usr/bin/ld: /tmp/ccbu2JrQ.o: in function `main':
+conftest.c:(.text+0xa): undefined reference to `SSLeay'
+collect2: 错误：ld 返回 1
+Trying libcrypto /var/lib/docker/overlay2/f44ee4f32d4de31f8ffc7957723241ef77a45ddfe90109c627fd1ec059f8d3cc/diff/usr/lib/x86_64-linux-gnu/libcrypto.so
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+Trying libcrypto /var/lib/docker/overlay2/f44ee4f32d4de31f8ffc7957723241ef77a45ddfe90109c627fd1ec059f8d3cc/diff/usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+Trying libcrypto /var/lib/docker/overlay2/24517e7f444c4bff85e551f93116e6667b47627cafa99df202d386dea6f8f1c6/merged/usr/lib/x86_64-linux-gnu/libcrypto.so
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+Trying libcrypto /var/lib/docker/overlay2/24517e7f444c4bff85e551f93116e6667b47627cafa99df202d386dea6f8f1c6/merged/usr/lib/x86_64-linux-gnu/libcrypto.so.1.0.0
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+Trying libcrypto /var/lib/docker/overlay2/24517e7f444c4bff85e551f93116e6667b47627cafa99df202d386dea6f8f1c6/merged/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+/usr/bin/ld: /tmp/ccn3G5gb.o: in function `main':
+conftest.c:(.text+0xa): undefined reference to `SSLeay'
+collect2: 错误：ld 返回 1
+Trying libcrypto /usr/lib/x86_64-linux-gnu/libcrypto.a
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+/usr/bin/ld: /tmp/ccI6ae8J.o: in function `main':
+conftest.c:(.text+0xa): undefined reference to `SSLeay'
+collect2: 错误：ld 返回 1
+Trying libcrypto /var/lib/docker/overlay2/f44ee4f32d4de31f8ffc7957723241ef77a45ddfe90109c627fd1ec059f8d3cc/diff/usr/lib/x86_64-linux-gnu/libcrypto.a
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
+Trying libcrypto /var/lib/docker/overlay2/24517e7f444c4bff85e551f93116e6667b47627cafa99df202d386dea6f8f1c6/merged/usr/lib/x86_64-linux-gnu/libcrypto.a
+conftest.c: 在函数‘main’中:
+conftest.c:2:32: 警告：隐式声明函数‘SSLeay’ [-Wimplicit-function-declaration]
+ int main(){printf("0x%08xL\n", SSLeay());}
+                                ^~~~~~
