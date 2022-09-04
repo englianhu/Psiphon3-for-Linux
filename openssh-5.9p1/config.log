@@ -4464,7 +4464,7 @@ configure:7555: $? = 0
 configure:7556: result: yes
 configure:7571: checking for yp_match
 configure:7571: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c  >&5
-/usr/bin/ld: /tmp/ccX5l3GS.o: in function `main':
+/usr/bin/ld: /tmp/ccJppyHV.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:107: undefined reference to `yp_match'
 collect2: error: ld returned 1 exit status
 configure:7571: $? = 1
@@ -4879,7 +4879,7 @@ configure:8212: checking for libutil.h
 configure:8212: result: no
 configure:8222: checking for library containing login
 configure:8253: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccG0K0rt.o: in function `main':
+/usr/bin/ld: /tmp/cch58NYq.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:90: undefined reference to `login'
 collect2: error: ld returned 1 exit status
 configure:8253: $? = 1
@@ -4982,7 +4982,7 @@ configure:8253: $? = 0
 configure:8270: result: -lutil
 configure:8283: checking for fmt_scaled
 configure:8283: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccIGIX7w.o: in function `main':
+/usr/bin/ld: /tmp/ccDjCtyz.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:114: undefined reference to `fmt_scaled'
 collect2: error: ld returned 1 exit status
 configure:8283: $? = 1
@@ -5381,7 +5381,7 @@ configure:8504: checking for /proc/pid/fd directory
 configure:8510: result: yes
 configure:9087: checking for arc4random
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccr86bdT.o: in function `main':
+/usr/bin/ld: /tmp/cc1ysUaa.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:121: undefined reference to `arc4random'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -5513,7 +5513,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for arc4random_buf
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccLBa8sY.o: in function `main':
+/usr/bin/ld: /tmp/ccU3c03f.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:121: undefined reference to `arc4random_buf'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -5645,7 +5645,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for arc4random_uniform
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccpjOaTZ.o: in function `main':
+/usr/bin/ld: /tmp/cczFgYqi.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:121: undefined reference to `arc4random_uniform'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -5781,7 +5781,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for b64_ntop
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccnJEMLb.o: in function `main':
+/usr/bin/ld: /tmp/ccmi5Hvp.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:122: undefined reference to `b64_ntop'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -5914,7 +5914,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for __b64_ntop
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccPnGH9b.o: in function `main':
+/usr/bin/ld: /tmp/ccVc2t4q.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:122: undefined reference to `__b64_ntop'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -6047,7 +6047,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for b64_pton
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/cc5L4Zti.o: in function `main':
+/usr/bin/ld: /tmp/ccAU58Aw.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:122: undefined reference to `b64_pton'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -6180,7 +6180,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for __b64_pton
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccH1PY8j.o: in function `main':
+/usr/bin/ld: /tmp/ccddJlKB.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:122: undefined reference to `__b64_pton'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -6320,7 +6320,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for bindresvport_sa
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/cc7jvwGu.o: in function `main':
+/usr/bin/ld: /tmp/ccgHgfFx.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:123: undefined reference to `bindresvport_sa'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -6458,7 +6458,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for closefrom
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccNfFeyC.o: in function `main':
+/usr/bin/ld: /tmp/ccmFU17J.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:124: undefined reference to `closefrom'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -6637,7 +6637,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for getpeereid
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccnHSUpc.o: in function `main':
+/usr/bin/ld: /tmp/ccmkBTcy.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:135: undefined reference to `getpeereid'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -6783,7 +6783,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for getpeerucred
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccmp0TJh.o: in function `main':
+/usr/bin/ld: /tmp/ccGSZlfE.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:135: undefined reference to `getpeerucred'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -6929,7 +6929,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for _getpty
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/cccWInlj.o: in function `main':
+/usr/bin/ld: /tmp/ccgZa5GF.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:135: undefined reference to `_getpty'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -7087,7 +7087,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for group_from_gid
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccyZ99wC.o: in function `main':
+/usr/bin/ld: /tmp/ccPrReAN.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:138: undefined reference to `group_from_gid'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -7252,7 +7252,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for login_getcapbool
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/cc8HbShS.o: in function `main':
+/usr/bin/ld: /tmp/cciRage3.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:142: undefined reference to `login_getcapbool'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -7405,7 +7405,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for md5_crypt
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccO04PrX.o: in function `main':
+/usr/bin/ld: /tmp/ccdYEVn9.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:142: undefined reference to `md5_crypt'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -7573,7 +7573,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for ngetaddrinfo
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccTzbK54.o: in function `main':
+/usr/bin/ld: /tmp/ccLuug1m.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:145: undefined reference to `ngetaddrinfo'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -7729,7 +7729,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for nsleep
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccX2UL89.o: in function `main':
+/usr/bin/ld: /tmp/ccrARFct.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:145: undefined reference to `nsleep'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -7885,7 +7885,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for ogetaddrinfo
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccT0WbDb.o: in function `main':
+/usr/bin/ld: /tmp/cc5GxZJu.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:145: undefined reference to `ogetaddrinfo'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -8041,7 +8041,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for openlog_r
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccZrsvVh.o: in function `main':
+/usr/bin/ld: /tmp/cclcLBjA.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:145: undefined reference to `openlog_r'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -8209,7 +8209,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for pstat
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccv2mupw.o: in function `main':
+/usr/bin/ld: /tmp/cckGFqaI.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:148: undefined reference to `pstat'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -8368,7 +8368,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for readpassphrase
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccHDkwNB.o: in function `main':
+/usr/bin/ld: /tmp/cc2XFFzJ.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:148: undefined reference to `readpassphrase'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -8543,7 +8543,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for setdtablesize
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccYkLktR.o: in function `main':
+/usr/bin/ld: /tmp/cc37iHv3.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:152: undefined reference to `setdtablesize'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -8718,7 +8718,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for setgroupent
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccGTeqB6.o: in function `main':
+/usr/bin/ld: /tmp/ccAaHAph.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:155: undefined reference to `setgroupent'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -9062,7 +9062,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for setpassent
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/cc0qZEM9.o: in function `main':
+/usr/bin/ld: /tmp/ccCr0eFs.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:156: undefined reference to `setpassent'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -9229,7 +9229,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for setpcred
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccglXjmb.o: in function `main':
+/usr/bin/ld: /tmp/ccUXRseu.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:156: undefined reference to `setpcred'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -9396,7 +9396,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for setproctitle
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccmkwnrg.o: in function `main':
+/usr/bin/ld: /tmp/ccqhJfgA.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:156: undefined reference to `setproctitle'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -9587,7 +9587,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for sigvec
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccw1yrCI.o: in function `main':
+/usr/bin/ld: /tmp/ccDWQ12Q.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:162: undefined reference to `sigvec'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -9790,7 +9790,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for strlcat
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccKLR0F9.o: in function `main':
+/usr/bin/ld: /tmp/cc1LCQVg.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:168: undefined reference to `strlcat'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -9969,7 +9969,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for strlcpy
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccWFUS9a.o: in function `main':
+/usr/bin/ld: /tmp/ccn0ql6m.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:168: undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -10148,7 +10148,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for strmode
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccmacAnh.o: in function `main':
+/usr/bin/ld: /tmp/ccvCGDxo.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:168: undefined reference to `strmode'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -10327,7 +10327,7 @@ configure: failed program was:
 configure:9087: result: no
 configure:9087: checking for strnvis
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccxplQAb.o: in function `main':
+/usr/bin/ld: /tmp/ccp2vlDu.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:168: undefined reference to `strnvis'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -10510,7 +10510,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for strtonum
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccz5D53i.o: in function `main':
+/usr/bin/ld: /tmp/ccuWOJ5B.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:169: undefined reference to `strtonum'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -10698,7 +10698,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for swap32
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccF4qqpr.o: in function `main':
+/usr/bin/ld: /tmp/ccfI4ZVO.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:171: undefined reference to `swap32'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -10888,7 +10888,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for timingsafe_bcmp
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/cctaLg7D.o: in function `main':
+/usr/bin/ld: /tmp/ccKAxNAQ.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:173: undefined reference to `timingsafe_bcmp'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -11084,7 +11084,7 @@ configure:9087: $? = 0
 configure:9087: result: yes
 configure:9087: checking for user_from_uid
 configure:9087: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccx8bwFS.o: in function `main':
+/usr/bin/ld: /tmp/ccoWlfZ4.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:176: undefined reference to `user_from_uid'
 collect2: error: ld returned 1 exit status
 configure:9087: $? = 1
@@ -11292,7 +11292,7 @@ configure:9108: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Ws
 configure:9108: $? = 0
 configure:9118: checking for library containing dlopen
 configure:9149: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccDwL56e.o: in function `main':
+/usr/bin/ld: /tmp/ccQ6jnIr.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:158: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:9149: $? = 1
@@ -11804,7 +11804,7 @@ configure:9581: $? = 0
 configure:9581: result: yes
 configure:9581: checking for getutxuser
 configure:9581: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -ldl -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/cctYWMME.o: in function `main':
+/usr/bin/ld: /tmp/ccNQvr4V.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:209: undefined reference to `getutxuser'
 collect2: error: ld returned 1 exit status
 configure:9581: $? = 1
@@ -12028,7 +12028,7 @@ configure:9581: $? = 0
 configure:9581: result: yes
 configure:9593: checking for setutxdb
 configure:9593: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -ldl -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccZPXlAM.o: in function `main':
+/usr/bin/ld: /tmp/ccw75fsW.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:210: undefined reference to `setutxdb'
 collect2: error: ld returned 1 exit status
 configure:9593: $? = 1
@@ -12257,7 +12257,7 @@ configure:9593: $? = 0
 configure:9593: result: yes
 configure:9604: checking for getlastlogxbyname
 configure:9604: gcc -o conftest -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -Wno-unused-result -fno-strict-aliasing -fno-builtin-memset -fstack-protector-all   -fstack-protector-all conftest.c -ldl -lutil -lz -lnsl  >&5
-/usr/bin/ld: /tmp/ccPkYBn0.o: in function `main':
+/usr/bin/ld: /tmp/ccb1XoVd.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:212: undefined reference to `getlastlogxbyname'
 collect2: error: ld returned 1 exit status
 configure:9604: $? = 1
@@ -13080,7 +13080,7 @@ conftest.c:193:2:
 conftest.c:193:7: warning: implicit declaration of function 'SSLeay' [-Wimplicit-function-declaration]
   exit(SSLeay() == OPENSSL_VERSION_NUMBER ? 0 : 1);
        ^~~~~~
-/usr/bin/ld: /tmp/ccetUPcz.o: in function `main':
+/usr/bin/ld: /tmp/ccDbF1wa.o: in function `main':
 /home/englianhu/文档/GitHub/Psiphon3-for-Linux/openssh-5.9p1/conftest.c:193: undefined reference to `SSLeay'
 collect2: error: ld returned 1 exit status
 configure:10509: $? = 1
